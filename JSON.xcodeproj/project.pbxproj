@@ -12,6 +12,9 @@
 		BC2D638F207466D1003458DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2D638D207466D1003458DC /* Main.storyboard */; };
 		BC2D6391207466D1003458DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2D6390207466D1003458DC /* Assets.xcassets */; };
 		BC2D6394207466D1003458DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2D6392207466D1003458DC /* LaunchScreen.storyboard */; };
+		BC2D639C20746769003458DC /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = BC2D639B20746769003458DC /* data.json */; };
+		BC2D639F20746829003458DC /* menuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2D639D20746829003458DC /* menuTableViewCell.swift */; };
+		BC2D63A020746829003458DC /* menuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC2D639E20746829003458DC /* menuTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		BC2D6390207466D1003458DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC2D6393207466D1003458DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC2D6395207466D1003458DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2D639B20746769003458DC /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		BC2D639D20746829003458DC /* menuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuTableViewCell.swift; sourceTree = "<group>"; };
+		BC2D639E20746829003458DC /* menuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = menuTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		BC2D6388207466D1003458DC /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				BC2D639B20746769003458DC /* data.json */,
 				BC2D6389207466D1003458DC /* AppDelegate.swift */,
 				BC2D638B207466D1003458DC /* ViewController.swift */,
 				BC2D638D207466D1003458DC /* Main.storyboard */,
 				BC2D6390207466D1003458DC /* Assets.xcassets */,
 				BC2D6392207466D1003458DC /* LaunchScreen.storyboard */,
 				BC2D6395207466D1003458DC /* Info.plist */,
+				BC2D639D20746829003458DC /* menuTableViewCell.swift */,
+				BC2D639E20746829003458DC /* menuTableViewCell.xib */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -123,8 +132,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2D63A020746829003458DC /* menuTableViewCell.xib in Resources */,
 				BC2D6394207466D1003458DC /* LaunchScreen.storyboard in Resources */,
 				BC2D6391207466D1003458DC /* Assets.xcassets in Resources */,
+				BC2D639C20746769003458DC /* data.json in Resources */,
 				BC2D638F207466D1003458DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC2D638C207466D1003458DC /* ViewController.swift in Sources */,
+				BC2D639F20746829003458DC /* menuTableViewCell.swift in Sources */,
 				BC2D638A207466D1003458DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

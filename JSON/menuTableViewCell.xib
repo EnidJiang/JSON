@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="menuTableViewCell" rowHeight="80" id="KGk-i7-Jjw" customClass="menuTableViewCell" customModule="JSON" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="菜名：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBa-HT-H8d">
+                        <rect key="frame" x="15" y="15" width="52" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="52" id="KIs-zT-Yyr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="食材：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1Q-uh-nMJ">
+                        <rect key="frame" x="15" y="40" width="52" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="52" id="aLa-OA-Wty"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YbA-TG-gyD">
+                        <rect key="frame" x="68" y="41" width="237" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPl-ba-Zvh">
+                        <rect key="frame" x="68" y="15" width="44" height="22"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="YbA-TG-gyD" firstAttribute="top" secondItem="LPl-ba-Zvh" secondAttribute="bottom" constant="4" id="7sr-8g-caW"/>
+                    <constraint firstItem="LPl-ba-Zvh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="Cwo-eY-wn1"/>
+                    <constraint firstItem="C1Q-uh-nMJ" firstAttribute="top" secondItem="kBa-HT-H8d" secondAttribute="bottom" constant="4" id="JeX-Gq-pc1"/>
+                    <constraint firstItem="kBa-HT-H8d" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="PsV-ex-bvJ"/>
+                    <constraint firstAttribute="trailing" secondItem="YbA-TG-gyD" secondAttribute="trailing" constant="15" id="f7Z-Pm-v4F"/>
+                    <constraint firstItem="LPl-ba-Zvh" firstAttribute="leading" secondItem="kBa-HT-H8d" secondAttribute="trailing" constant="1" id="fk8-wJ-kdS"/>
+                    <constraint firstAttribute="bottom" secondItem="YbA-TG-gyD" secondAttribute="bottom" constant="17.5" id="hDP-hG-0cT"/>
+                    <constraint firstItem="C1Q-uh-nMJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="hy5-7t-N1a"/>
+                    <constraint firstItem="kBa-HT-H8d" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="wh1-1e-a27"/>
+                    <constraint firstItem="YbA-TG-gyD" firstAttribute="leading" secondItem="C1Q-uh-nMJ" secondAttribute="trailing" constant="1" id="xWq-QQ-f7E"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dishIngreLabel" destination="YbA-TG-gyD" id="Cpb-VI-UVm"/>
+                <outlet property="dishNameLabel" destination="LPl-ba-Zvh" id="KcO-p6-9UA"/>
+            </connections>
+            <point key="canvasLocation" x="35" y="72"/>
+        </tableViewCell>
+    </objects>
+</document>
